@@ -9,7 +9,7 @@ Run the main.py with Python and then edit the config.ini file
 
 
 
-
+'
 namespaces = hd-wallet,backend,backend1
 service_account_name = miladnaebzadeh-test
 role_name = get-test
@@ -20,7 +20,7 @@ resources = pods, deployments, services
 kube_config_path = /opt/rbac-py/kubeconfig.yaml
 output_kubeconfig_file = kubeconfig-user.yaml
 server_url = https://192.168.168.28:6449
-
+'
 
 
 
