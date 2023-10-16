@@ -1,0 +1,4 @@
+kubepy==1.19.0
+kubernetes==28.1.0
+pyyml==0.0.2
+configparser==6.0.0
