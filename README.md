@@ -2,7 +2,12 @@
 rbac-shared-sa-py
 
 
+snap install kubectl 
+
+pip3 install -r requirments.txt
+
 Run the main.py with Python and then edit the config.ini file
+
 
 
 <pre>
