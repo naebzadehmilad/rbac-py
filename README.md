@@ -6,9 +6,6 @@ Run the main.py with Python and then edit the config.ini file
 
 
 <pre>
-```python
-
-
 
 
 namespaces = hd-wallet,backend,backend1
@@ -21,7 +18,6 @@ resources = pods, deployments, services
 kube_config_path = /opt/rbac-py/kubeconfig.yaml
 output_kubeconfig_file = kubeconfig-user.yaml
 server_url = https://192.168.168.28:6449
-'''<pre>
 
 
 
@@ -136,3 +132,7 @@ subjects:
  5.  kubectl   --kubeconfig=kubeconfig-user.yaml  get po -n hd-wallet
      kubectl   --kubeconfig=kubeconfig-user.yaml  get po -n backend
      kubectl   --kubeconfig=kubeconfig-user.yaml  get po -n backend1
+
+
+</pre>
+
