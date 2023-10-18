@@ -6,7 +6,7 @@ def generate_default_config():
         'service_account_name': 'example-sa',
         'role_name': 'example-role',
         'role_binding_name': 'example-role-binding',
-        'verbs': 'create, delete ,deletecollection ,get, list, patch, update,"",watch'
+        'verbs': 'create, delete ,deletecollection ,get, list, patch, update,watch,""',
         'resources': 'extensions,pods,apps,""'
     }
     config_parser['KubeConfig'] = {
