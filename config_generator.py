@@ -6,8 +6,8 @@ def generate_default_config():
         'service_account_name': 'example-sa',
         'role_name': 'example-role',
         'role_binding_name': 'example-role-binding',
-        'verbs': 'create, delete ,deletecollection ,get, list, patch, update,watch,""',
-        'resources': 'extensions,pods,apps,""'
+        'verbs': 'create, delete ,deletecollection ,get, list, patch, update,watch',
+        'resources': 'extensions,pods,apps,replicasets,pods/exec'
     }
     config_parser['KubeConfig'] = {
         'kube_config_path': '/path/to/your/kubeconfig.yaml',
