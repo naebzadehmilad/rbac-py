@@ -28,7 +28,7 @@ output_kubeconfig_file = kubeconfig-user.yaml
 server_url = https://192.168.168.28:6449
 
 
-For example, we want our token to work for 3 of the half spaces
+For example, we want our token to work for 3 of the namespaces
 
 
 #kubectl edit rolebinding (rolename) -n (target-access-namesapce) 
